@@ -3,7 +3,7 @@ const anchor = require("@project-serum/anchor");
 const main = async () => {
   console.log("INITIALIZING TEST");
 
-  anchor.setProvider(anchor.Provider.env());
+  anchor.setProvider(anchor.Provider.env()); //setting provider for anchor
   const program = anchor.workspace.Myepicproject;
   const tx = await program.rpc.startStuffOff();
 
