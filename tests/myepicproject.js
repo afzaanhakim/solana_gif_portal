@@ -23,7 +23,20 @@ signers:[baseAccount],
   console.log(" ✍️ ✍️ ✍️ transaction signatoooor ✍️ ✍️ ✍️✍️ ✍️ ✍️", tx);
 
   let account = await program.account.baseAccount.fetch(baseAccount.publicKey);
-  console.log('👀 THIS IS THE GIF COUNT', account.totalGifs.toString())
+  console.log('👀 THIS IS THE GIF COUNT', account.totalGifs.toString());
+
+
+  //calling-addgif
+
+  await program.rpc.addGif({
+    accounts: {
+      baseAccount: baseAccount.publicKey,
+    }
+  })
+
+//calling account again to get newGif count after using addGif
+  account = await program.account.baseAccount.fetch(baseAccount.publicKey);
+  console.log('👀 THIS IS THE new GIF COUNT', account.totalGifs.toString());
 };
 
 const runMain = async () => {

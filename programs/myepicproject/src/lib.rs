@@ -35,6 +35,15 @@ pub system_program: Program<'info, System>,//reference to the program that is ru
 
 }
 
+
+//creating a struct to specifiy data i want in addgif that has a mutable reference to base_account
+
+#[derive(Accounts)]
+pub struct AddGif<'info>{
+    #[account(mut)]
+    pub base_account: Account<'info, BaseAccount>,
+}
+
 // Tell Solana what we want to store on this account. basically base account holds integers namely count of total_gifs
 #[account]
 pub struct BaseAccount {
