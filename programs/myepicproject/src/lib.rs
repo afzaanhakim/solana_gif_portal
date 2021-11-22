@@ -1,7 +1,7 @@
 
 use anchor_lang::prelude::*;
 
-declare_id!("Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS");
+declare_id!("Ad2MnCGA9DRcqksEDuM34qKDoTSmRcv5JrZykNEvGLjj");
 
 #[program] //macros - that attach code to modules -- sort of like class inheritance
 pub mod myepicproject { //pub mod tells basically  this is a rust module
