@@ -11,7 +11,7 @@ globalThis.Buffer = Buffer
 import './App.css';
 
 // Constants
-const TWITTER_HANDLE = '@cloak777';
+const TWITTER_HANDLE = '@afzaan_';
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
 const TEST_GIFS = [
 	'https://media.giphy.com/media/GRSnxyhJnPsaQy9YLn/giphy.gif',
