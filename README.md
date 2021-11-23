@@ -5,6 +5,7 @@
  > Built using Vercel [Check it out!](https://dbzportalgifssolana-afzaanhakim.vercel.app)
 
 ## Tech Stack
+- Rust
 - Solana
 - solana-cli 1.8.5
 - React
