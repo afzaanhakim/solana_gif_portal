@@ -4,6 +4,10 @@
 ### Check it out below
  > Built using Vercel [Check it out!](https://dbzportalgifssolana-afzaanhakim.vercel.app)
 
+ > PS: You would need to have a phantom wallet connected on your browser. Install here (https://phantom.app/) 
+ 
+ and some SOL tokens--- This app running on DEVNET.
+
 ## Tech Stack
 - Rust
 - Solana
