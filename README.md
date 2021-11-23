@@ -2,15 +2,16 @@
 
 
 ### Check it out below
- > Built using [vercel](https://dbzportalgifssolana-afzaanhakim.vercel.app)
+ > Built using Vercel [Check it out!](https://dbzportalgifssolana-afzaanhakim.vercel.app)
+ 
 ## Tech Stack
- > Solana
-  > solana-cli 1.8.5
- > React
- > Anchor
-  > anchor-cli 0.18.2
- > Vercel
- > Phantom Wallet on DEVNET
+- Solana
+- solana-cli 1.8.5
+- React
+- Anchor
+- anchor-cli 0.18.2
+- Vercel
+- Phantom Wallet on DEVNET
 
 
 ## How it Looks
